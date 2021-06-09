@@ -1,0 +1,35 @@
+            body
+			{
+			/* background-image: url(assets/bg_img.jpg); */
+			background-repeat: no-repeat;
+			background-attachment: fixed;  
+			background-size: cover;
+			}
+			h1 
+			{
+			text-shadow: 5px 3px #0001006b;
+			}
+			img {float: left;}
+            .sideheading
+            {
+                padding: 4px;
+                font-size: 24px;
+                background: #ffa6009d;
+                margin-bottom: 15px;
+            }
+            .para
+            {
+                padding: 10px;
+                font-size: 18px;
+                background: #ffffff46;
+                margin-bottom: 10px;
+            }
+			.content0{  
+            background-color: rgba(165, 42, 42, 0);
+             }
+             .content1{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            height: 480px;
+            }

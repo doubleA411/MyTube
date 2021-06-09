@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+.container{
+    font-family: "Oswald";
+    justify-content: center;
+    margin-top:10%;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(75deg, red, white);
+    border-radius: 10px;
+    margin-bottom: 20%;
+    padding-top: 2%;
+    height: 60%;
+    border: black;
+    filter: drop-shadow(35px 10px 10px rgb(206, 206, 206));
+    color: white;
+}
+
+.tag{
+    font-family: "Oswald";
+    text-align: center;
+}
+
+.tag2{
+    font-size: 3em;
+    color: red;
+    text-align: center;
+    font-family: "Oswald";
+}

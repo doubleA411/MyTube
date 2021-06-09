@@ -1,6 +1,40 @@
-@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import "~bootstrap/dist/css/bootstrap.css";
 
-/* 
+
+/* .side-nav{
+    background-color: white;
+    width: 240px;
+    padding: 15px;
+    color: white;
+    border: none;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon-padding{
+    padding-right: 15px;
+}
+
+.mat-list{
+    text-align: center;
+    justify-content: space-between;
+}
+
+.mat-item-hover:hover{
+    opacity: 1;
+    background-color: #f4f4f4;
+}*/
+/* @import url("https://fonts.googleapis.com/icon?family=Material+Icons"); */
+
+.material-icons{
+    color: rgb(92, 92, 92);
+    
+} 
+
+
+
 *,*::before,*::after{
     box-sizing: border-box;
     font-family: Robota,Arial, Helvetica, sans-serif;
@@ -154,75 +188,6 @@ body{
 .category:last-child{
     margin-right: 0;
 }
-
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    background-color: white;
-}
-
-.logo{
-    height: 20px;
-    margin-left: 20px;
-}
-
-.search-bar{
-    display: flex;
-    flex-grow: 1;
-    margin: 0 2rem 0 4rem;
-    padding-right: 5%;
-    
-}
-
-.search-input{
-    box-shadow: inset 0 1px 2px #AAA;
-    width: 75%;
-    font-size: inherit;
-    padding: .4em;
-    border: 1px solid #999;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-radius: 2px 0 0 2px;
-    margin-left:100px ;
-
-}
-
-.search-btn{
-    width: 65px;
-    color: #999;
-    display: flex;
-    align-items: center;
-    padding: 0 1.25rem;
-    border: 1px solid #999;
-    background-color: #f8f8f8;
-    border-left: none;
-    border-top-left-radius: 0;
-    border-bottom-left-radius:0 ;
-    cursor: pointer;
-    border-radius: 0 2px 2px 0;
-}
-
-
-.search-btn:hover{
-    background-color: #f0f0f0;
-}
-
-.mic{
-    justify-content: space-between;
-    background: none;
-    border: none;
-}
-
-.menu-icon{
-    justify-content: space-between;
-    display: grid;
-    gap: 1.5rem;
-    grid-template-columns: repeat(4, auto);
-    align-items: center;
-}
-
 .user-image{
     border-radius: 50%;
     width: 36px;
@@ -236,4 +201,4 @@ body{
     height: 200px;
     width:100%;
 }
- */
+

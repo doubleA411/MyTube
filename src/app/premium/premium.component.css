@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.navbar-brand{
+    color: white;
+    font-family: "Oswald";
+}
+
+.container{
+    align-items: center;
+    margin-left: 0%;
+    margin-right: 10;
+    padding-top: 6%;
+    text-align: center;
+    height: 78%;
+    width: 150%;
+    display: block;
+    background: linear-gradient(70deg, red, white);
+    border-radius: 10px;
+    font-family: "Oswald";
+}
